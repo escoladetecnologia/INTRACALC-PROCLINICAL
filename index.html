@@ -155,6 +155,9 @@
             <button onclick="switchTab('tab-ai-chat')" id="btn-tab-ai-chat" class="nav-tab px-3.5 py-2 rounded-lg bg-clinical-surface text-gray-300 hover:text-white border border-clinical-border flex items-center gap-2 whitespace-nowrap transition-all">
                 <i class="fa-solid fa-robot text-clinical-gold"></i> Assistente IA Educacional
             </button>
+            <button onclick="switchTab('tab-disclaimer')" id="btn-tab-disclaimer" class="nav-tab px-3.5 py-2 rounded-lg bg-clinical-surface text-gray-300 hover:text-white border border-clinical-border flex items-center gap-2 whitespace-nowrap transition-all">
+                <i class="fa-solid fa-scale-balanced text-clinical-gold"></i> Termos & Responsabilidade
+            </button>
         </nav>
     </header>
 
@@ -930,6 +933,51 @@
 
             </div>
 
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- TAB 7: TERMOS E ISENÇÃO DE RESPONSABILIDADE                       -->
+        <!-- ================================================================= -->
+        <div id="tab-disclaimer" class="tab-content hidden space-y-6">
+            <div class="bg-clinical-card p-6 rounded-2xl border border-clinical-border shadow-card-depth space-y-6 max-w-4xl mx-auto">
+                <div class="flex items-center gap-3 pb-4 border-b border-clinical-border">
+                    <div class="w-12 h-12 rounded-xl bg-red-950/40 border border-red-800/40 flex items-center justify-center text-red-400 text-xl shrink-0">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-lg font-bold text-white">Termos de Uso e Isenção de Responsabilidade Clínica</h2>
+                        <p class="text-xs text-gray-400">A leitura deste documento é obrigatória antes da aplicação de qualquer protocolo clínico gerado por este sistema.</p>
+                    </div>
+                </div>
+
+                <div class="space-y-4 text-sm text-gray-300 leading-relaxed">
+                    <div class="p-4 rounded-xl bg-[#151515] border-l-4 border-clinical-gold">
+                        <h3 class="text-white font-bold mb-1.5 flex items-center gap-2"><i class="fa-solid fa-user-doctor text-clinical-gold"></i> 1. Qualificação Profissional Obrigatória</h3>
+                        <p class="text-[11px] text-gray-400">Este aplicativo foi desenvolvido <strong>exclusivamente para profissionais de saúde estetas devidamente formados, habilitados e ativamente registrados</strong> em seus respectivos conselhos de classe (Biomedicina, Farmácia, Enfermagem, Odontologia, Medicina, etc.). O uso deste sistema por pessoas leigas ou estudantes sem supervisão técnica é estritamente proibido.</p>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-[#151515] border-l-4 border-red-500">
+                        <h3 class="text-white font-bold mb-1.5 flex items-center gap-2"><i class="fa-solid fa-triangle-exclamation text-red-400"></i> 2. Responsabilidade Integral do Prescritor</h3>
+                        <p class="text-[11px] text-gray-400">O IntraCalc Pro atua de forma estrita como uma <strong>ferramenta matemática e de organização de suporte à decisão</strong>. Toda a responsabilidade civil, penal e ética sobre a avaliação prévia do paciente (anamnese), a exclusão de contraindicações, a escolha dos ativos, a via de administração tecidual, a prevenção de danos à saúde e o manejo imediato de intercorrências (como alergias, isquemia, necrose ou choque anafilático) <strong>recai unicamente sobre o profissional executante</strong>.</p>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-[#151515] border-l-4 border-clinical-wine">
+                        <h3 class="text-white font-bold mb-1.5 flex items-center gap-2"><i class="fa-solid fa-book-medical text-clinical-gold"></i> 3. Validação de Bulas e Protocolos</h3>
+                        <p class="text-[11px] text-gray-400">As sugestões e heurísticas do sistema (como a matriz de pH) visam orientar e diminuir falhas na bancada, mas <strong>não substituem o raciocínio clínico soberano do profissional</strong>. É obrigação do profissional conferir a literatura científica, os protocolos do responsável técnico e a documentação dos fabricantes das ampolas quanto a diluições, concentrações e restrições antes de injetar qualquer mescla.</p>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-[#151515] border-l-4 border-gray-500">
+                        <h3 class="text-white font-bold mb-1.5 flex items-center gap-2"><i class="fa-solid fa-shield-halved text-gray-400"></i> 4. Isenção de Danos</h3>
+                        <p class="text-[11px] text-gray-400">Os desenvolvedores e consultores deste software, bem como as tecnologias de Inteligência Artificial aqui integradas, <strong>estão isentos de qualquer responsabilidade ou reparação por danos à saúde, lesões estéticas, reações adversas sistêmicas ou prejuízos de qualquer natureza</strong> causados ao paciente decorrentes da má prática, negligência, imprudência ou imperícia na aplicação das informações aqui organizadas.</p>
+                    </div>
+                </div>
+
+                <div class="pt-5 mt-2 border-t border-clinical-border flex items-center justify-center text-center">
+                    <p class="text-[11px] text-gray-500 max-w-2xl uppercase tracking-wider font-semibold">
+                        Ao permanecer e utilizar as ferramentas do IntraCalc Pro, você declara ciência e concordância integral e irrevogável com estes termos, atestando sua plena capacidade legal para a prática da estética injetável.
+                    </p>
+                </div>
+            </div>
         </div>
 
     </main>
